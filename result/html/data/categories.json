@@ -1,0 +1,162 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert -0.1 == 0.3",
+      "children" : [ {
+        "name" : "test_add[fourth]",
+        "uid" : "374ca5efd33f3353",
+        "parentUid" : "fb1e0065dc0c3c9adac6ca28b9995c4a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613919979566,
+          "stop" : 1613919979567,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[0.1, -0.2, 0.3]" ]
+      } ],
+      "uid" : "fb1e0065dc0c3c9adac6ca28b9995c4a"
+    }, {
+      "name" : "AssertionError: assert 100 == 2",
+      "children" : [ {
+        "name" : "test_sub[second]",
+        "uid" : "7dfd1db171569472",
+        "parentUid" : "729fc4dcb0f41731fe97a8331432192b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613919979620,
+          "stop" : 1613919979620,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[200, 100, 2]" ]
+      } ],
+      "uid" : "729fc4dcb0f41731fe97a8331432192b"
+    }, {
+      "name" : "AssertionError: assert 0.6 == 2",
+      "children" : [ {
+        "name" : "test_sub[fourth]",
+        "uid" : "470b4e3be8bc5621",
+        "parentUid" : "bc78b07ab2d90e4a359a8ad134e372d4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613919979633,
+          "stop" : 1613919979633,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[0.4, -0.2, 2]" ]
+      } ],
+      "uid" : "bc78b07ab2d90e4a359a8ad134e372d4"
+    }, {
+      "name" : "AssertionError: assert 20000 == 2",
+      "children" : [ {
+        "name" : "test_mul[second]",
+        "uid" : "c594cc4a1227a2b3",
+        "parentUid" : "7627a60b60b6e4667ea35f5564e49a5b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613919979645,
+          "stop" : 1613919979645,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[200, 100, 2]" ]
+      } ],
+      "uid" : "7627a60b60b6e4667ea35f5564e49a5b"
+    }, {
+      "name" : "AssertionError: assert 0.08 == 0.8",
+      "children" : [ {
+        "name" : "test_mul[third]",
+        "uid" : "a9607639b6976e22",
+        "parentUid" : "c99f98dd5774935f0d53c7f3d80a3307",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613919979651,
+          "stop" : 1613919979652,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[0.4, 0.2, 0.8]" ]
+      } ],
+      "uid" : "c99f98dd5774935f0d53c7f3d80a3307"
+    }, {
+      "name" : "AssertionError: assert -0.08 == 0.08",
+      "children" : [ {
+        "name" : "test_mul[fourth]",
+        "uid" : "53a1b3f6d3143ece",
+        "parentUid" : "a45cfb6ccc1495af8580f5455056145f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613919979658,
+          "stop" : 1613919979658,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[0.4, -0.2, 0.08]" ]
+      } ],
+      "uid" : "a45cfb6ccc1495af8580f5455056145f"
+    }, {
+      "name" : "AssertionError: assert 2 == 1",
+      "children" : [ {
+        "name" : "test_mul[fifth]",
+        "uid" : "dd74f5f54cc86e5",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613919979665,
+          "stop" : 1613919979665,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[-1, -2, 1]" ]
+      } ],
+      "uid" : "20b3ab6bb3644f149f5fba207dddc2af"
+    }, {
+      "name" : "AssertionError: assert 2.0 == 4",
+      "children" : [ {
+        "name" : "test_div[first]",
+        "uid" : "4480a9b88f131f4e",
+        "parentUid" : "9449dde6d621fdfa033eac88206589d0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613919979670,
+          "stop" : 1613919979671,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[4, 2, 4]" ]
+      } ],
+      "uid" : "9449dde6d621fdfa033eac88206589d0"
+    }, {
+      "name" : "AssertionError: assert -2.0 == 2",
+      "children" : [ {
+        "name" : "test_div[fourth]",
+        "uid" : "407f9e3bf22ffecf",
+        "parentUid" : "041369f7f0f215d0e9442bdcd5132602",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613919979683,
+          "stop" : 1613919979683,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[0.4, -0.2, 2]" ]
+      } ],
+      "uid" : "041369f7f0f215d0e9442bdcd5132602"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
